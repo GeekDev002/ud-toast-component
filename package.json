@@ -24,9 +24,14 @@
   },
   "homepage": "https://github.com/GeekDev002/ud-toast-component#readme",
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
     "react": "^19.0.0",
     "tslib": "^2.8.1",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
