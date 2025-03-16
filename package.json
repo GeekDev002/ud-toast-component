@@ -1,0 +1,44 @@
+{
+  "name": "ud-toast-component",
+  "version": "1.0.0",
+  "description": "Toast component to show flash messages",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekDev002/ud-toast-component.git"
+  },
+  "keywords": [
+    "React",
+    "Toast"
+  ],
+  "author": "Unmesh Dusane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeekDev002/ud-toast-component/issues"
+  },
+  "homepage": "https://github.com/GeekDev002/ud-toast-component#readme",
+  "devDependencies": {
+    "react": "^19.0.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.10",
+    "@types/uuid": "^10.0.0",
+    "react-icons": "^5.5.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "uuid": "^11.1.0"
+  }
+}
